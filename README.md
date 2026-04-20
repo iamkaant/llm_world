@@ -105,6 +105,20 @@ GUI features:
 - Load any saved `trace.jsonl` for replay
 - Fold/unfold per-frame agent `summary`, `thoughts`, and full `message` text
 
+## Optional smoke checks
+
+These scripts are optional and are not required to run the simulation or GUI:
+
+```bash
+python scripts/smoke_parse.py
+python scripts/smoke_openrouter.py
+```
+
+Use them only for quick local validation:
+
+- `smoke_parse.py`: checks action parsing fallback behavior
+- `smoke_openrouter.py`: checks a minimal OpenRouter API call using `OPENROUTER_API_KEY`
+
 ## Free-tier safety limits
 
 The code includes hard guards so runs stop before runaway usage:
