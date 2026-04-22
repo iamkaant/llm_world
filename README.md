@@ -10,7 +10,7 @@ This project reproduces the core simulation mechanics from the paper:
 - **Communication**: local 7x7 neighborhood
 - **Memory**: 3-step persistence per agent
 
-[![LLM Survival Simulation with 20 agents](https://i9.ytimg.com/vi/3ecYMkt3Vuk/mq2.jpg?sqp=COz7n88G-oaymwEoCMACELQB8quKqQMcGADwAQH4Ac4FgALUBYoCDAgAEAEYciBlKCkwDw==&rs=AOn4CLDi1mnMK8PvQCvuY3fIwz5JRTVMtw)](https://youtube.com/shorts/3ecYMkt3Vuk)
+[![LLM Survival Simulation with 20 agents](demo_sim.png)](https://youtube.com/shorts/3ecYMkt3Vuk)
 
 
 It supports two backends:
